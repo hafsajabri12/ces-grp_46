@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activités du Club Éducation Sportive</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        /* Styles généraux */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('image.jpeg'); /* Remplacez ce lien par le lien direct de l'image */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: #383737;
+        }
+        header {
+            background-color: #4c4caf;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Section des activités */
+        .activites {
+            padding: 40px 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour contraster avec l'image */
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .activites h2 {
+            font-size: 2.5em;
+            color: #4c4caf;
+            margin-bottom: 40px;
+        }
+
+        .activites-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 0 20px;
+        }
+
+        .activite-card {
+            background-color: #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .activite-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .activite-card a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .activite-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .activite-card h3 {
+            color: #004c99;
+            padding: 15px;
+            font-size: 1.5em;
+        }
+
+        .activite-card p {
+            padding: 0 15px 20px;
+            font-size: 1.1em;
+        }
+
+        .footer {
+            background-color: #4c4caf;
+            height: 80px;
+            text-align: center;
+            font-size: 50px;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Footer Styling */
+.footer {
+  background-color: midnightblue;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between social links */
+}
+
+.footer .b5 {
+  color: azure;
+  font-size: 2rem; /* Adjust icon size */
+  transition: transform 0.2s, color 0.2s; /* Animation for hover */
+}
+
+.footer .b5:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+  color: lightblue;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Capture2.PNG" alt="Logo du Club Sportif">
+        <h1>LES ACTIVITES DU CLUB SPORTIF</h1>
+    </header>
+    <section class="activites">
+        <h2>Nos Activités</h2>
+        <div class="activites-list">
+            <!-- Activités sportives -->
+            <div class="activite-card">
+                <a href="football.PNG">
+                    <img src="football.PNG" alt="Football" class="activite-img">
+                    <h3>Football</h3>
+                    <p>Tournois et matchs pour les équipes féminines et masculines.</p>
+                </a>
+            </div>
+            <div class="activite-card">
+                <a href="basketball.PNG">
+                    <img src="basketball.PNG" alt="Basketball" class="activite-img">
+                    <h3>Basketball</h3>
+                    <p>Défis et rencontres amicales entre équipes masculines et féminines.</p>
+                </a>
+            </div>
+            <div class="activite-card">
+                <a href="volleyball.PNG">
+                    <img src="volleyball.PNG" alt="Volleyball" class="activite-img">
+                    <h3>Volleyball</h3>
+                    <p>Compétitions et entraînements pour les passionnés de volleyball.</p>
+                </a>
+            </div>
+            <!-- Activités éducatives -->
+            <div class="activite-card">
+                <h3>L'heure de lecture</h3>
+                <p>Rejoignez-nous pour des moments de lecture et d'échange.</p>
+            </div>
+            <div class="activite-card">
+                <h3>Ateliers de développement personnel</h3>
+                <p>Des ateliers pour améliorer vos compétences et vos projets personnels.</p>
+            </div>
+            <!-- Activités collaboratives -->
+            <div class="activite-card">
+                <a href="don du sang.PNG">
+                    <img src="don du sang.PNG" alt="Don du Sang" class="activite-img">
+                    <h3>Campagne Don du Sang</h3>
+                    <p>Participez à la campagne de don du sang en collaboration avec NASCEAM.</p>
+                </a>
+            </div>
+            <div class="activite-card">
+                <a href="handball.PNG">
+                    <img src="handball.PNG" alt="Handball" class="activite-img">
+                    <h3>Handball</h3>
+                </a>
+            </div>
+            <div class="activite-card">
+                <a href="badminton.PNG">
+                    <img src="badminton.PNG" alt="Badminton" class="activite-img">
+                    <h3>Badminton</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="social">
+     
+
+        <div class="footer">
+        <a class="b5"    href="https://www.instagram.com/ces_fsbm?igsh=MW45bjJ0Nm01cXJmdA=="><i class="fa-brands fa-instagram">     </i></a>
+        <a  class="b5"     href="https://www.facebook.com/Educationsportive?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+        
+         </div>  
+    
+    
+    </section>
+</body>
+</html>

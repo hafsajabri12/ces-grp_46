@@ -1,0 +1,257 @@
+/*roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ *{
+    margin: 0%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box ;
+ }
+html , body{
+    font-family: "Roboto Slab", serif;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+.r1 {
+    width: 60px;
+    height: 60px; 
+     object-fit: cover;
+     border-radius:90% ;
+     float: left;
+      shape-outside: margin-box;
+     margin:0 20px 5px  ;
+    
+}
+h1{
+    color: midnightblue;
+    font-size: 30px;
+}
+
+
+    
+
+
+
+/*utilise des class*/
+.containt{
+    max-width: 80%;
+    margin: auto;
+}
+.b1{
+    background-color: rgba(12, 12, 134, 0.854);
+    color: azure;
+    
+}
+.text-center{
+    text-align: center;
+}
+.heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: azure;
+}
+.py-1{
+padding: 1.5rem 0;
+
+}
+.bottom {
+    background-color: royalblue;
+    color: beige;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.bottom:hover{
+    background-color:rgb(65, 166, 225);
+    color: oldlace;
+    background-color: rgb(0, 0, 255);
+    transform: scale(1.03); 
+    box-shadow: 0 0 25px rgb(81, 0, 255);
+}
+.bg{
+    background: linear-gradient(rgba(65, 105, 225, 0.637),rgba(128, 128, 128, 0.463));
+    color:black ;
+}
+
+    
+
+.bg-2{
+    background:linear-gradient(rgba(65, 105, 225, 0.721),rgba(128, 128, 128, 0.434));
+    color: rgb(2, 21, 21);
+    background-size: 50px;
+    
+}
+
+
+/* section nav-bar*/
+#nav-bar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 1rem;
+    height: 75px;
+  
+    top: 0%;
+    
+}
+
+    
+
+#nav-bar .logo {
+    display: flex;
+
+    
+}
+#nav-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar ul li a{
+    padding: 13px; 
+    color:white;
+    margin: 12px;;
+}    
+#nav-bar ul li a:hover{
+   background-color: rgb(15, 131, 227);
+   border-radius: 20px;
+}
+/*section back*/
+#show {
+    background: rgba(0, 0, 255, 0.568) url(pop.png) no-repeat center/cover;
+    height: 100vh;
+    
+}
+#show .containt-show {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height:100% ;
+background-color: rgba(8, 45, 155, 0.596);
+}
+/*paraghraph*/
+#paraghraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0.75rem;
+    padding-bottom: 10px;
+    color: rgb(240, 245, 220);
+    
+    
+}
+
+
+#paraghraph .contain-paragraf {
+     display: flex;
+     align-items: center;
+     color: rgb(240, 245, 220);
+     
+    
+
+}
+#paraghraph .box{
+    padding-top: 6px;
+}
+.contain-paragraf {
+    padding-bottom:19px ;
+    margin-top: 6px;
+}
+/*section contacter nous */
+
+#contact{
+  
+    text-align: center;
+
+    align-content: center;
+    color: azure;
+    
+}        
+
+
+
+   
+
+#contact .for input,
+#contact .for  textarea {
+
+   
+    width: 50%;
+    padding: 15px;
+    border-radius: 50px 50px;
+    margin-bottom: 1rem;
+    outline: none;
+    
+
+}
+  
+        
+    /* section maps*/
+  
+    
+    .b3{
+        width: 600PX;
+        height: 400px ;
+        padding-left: 9px;
+        display: flex;
+        
+    
+        } 
+
+         #maps {
+            display: flex;
+            padding-top: 10px;
+            
+            
+        }
+ /*social*/
+ /* Footer Styling */
+.footer {
+  background-color: midnightblue;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between social links */
+}
+/* Footer Styling */
+.footer {
+    background-color: midnightblue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Spacing between social links */
+  }
+  
+  .footer .b5 {
+    color: azure;
+    font-size: 2rem; /* Adjust icon size */
+    transition: transform 0.2s, color 0.2s; /* Animation for hover */
+  }
+  
+  .footer .b5:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+    color: lightblue;
+  }
+  
+
+        
+   
+        
+        
+        
+
+    
+    
+    
+    
+        
+    
+    
+       
+       
+    

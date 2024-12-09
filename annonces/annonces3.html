@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les annonces du club sportif, y compris des événements comme des tournois, des activités de lecture et des compétitions sportives.">
+    <title>Page des Annonces du Club Sportif</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" >
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f4f4f9, #eaeef4);
+            background-size: 400% 400%;
+            transition: background-position 10s ease-in-out;
+        }
+
+        body:hover {
+            background-position: 100% 50%;
+        }
+
+        header {
+            background-color: #4c4caf;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: translateY(-5px);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            transition: color 0.3s ease;
+        }
+        
+        header:hover h1 {
+            color: #d4d4f9;
+        }
+
+        main {
+            padding: 20px;
+            padding-bottom: 70px; /* Prevent footer overlap */
+        }
+
+        .announcement {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            cursor: pointer;
+            opacity: 0.95;
+            font-size:15px ;
+        }
+
+        .announcement img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .announcement:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            background-color: #f0f4fc;
+            opacity: 1;
+        }
+
+        .announcement h2 {
+            margin-top: 0;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        a {
+            text-decoration: none;
+            font-size:15px ;
+        }
+        .announcement:hover h2 {
+            color: #4c4caf;
+        }
+
+        .announcement p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #4c4caf;
+            height: 80px;
+            text-align: center;
+            font-size: 50px;
+            padding: 0;
+            margin: 0;
+        }
+
+       /* Footer Styling */
+.footer {
+  background-color: midnightblue;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between social links */
+}
+
+.footer .b5 {
+  color: azure;
+  font-size: 2rem; /* Adjust icon size */
+  transition: transform 0.2s, color 0.2s; /* Animation for hover */
+}
+
+.footer .b5:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+  color: lightblue;
+}
+
+    </style>
+</head>
+
+<body>
+<header>
+    <img src="capture2.PNG" alt="Logo du Club Sportif">
+    <h1>Les Annonces du Club Sportif</h1>
+</header>
+
+<main>
+    <article class="announcement">
+        <img src="tournois.PNG" alt="Image d'un tournoi en ligne">
+        <h2>Tournois</h2>
+        <p><b>Date:</b> du 1er Février 2024 </p>
+        <p><b>Lieu:</b> En ligne (Lien envoyé après inscription)</p>
+        <p><b>Description:</b> Les tournois sont un excellent moyen de dynamiser une communauté et de promouvoir la compétition saine.</p>
+        <button onclick="window.location.href='tournois3.html'">En savoir plus</button>
+    </article>
+
+    <article class="announcement">
+        <img src="reading2.PNG" alt="Activité de Lecture">
+        <h2>L'heure de lecture</h2>
+        <p><b>Date:</b> 04-10 novembre 2024 (Mensuel)</p>
+        <p><b>Lieu:</b> Bibliothèque Centrale</p>
+        <p><b>Description:</b> Encourager les participants à dédier une heure complète à la lecture dans une ambiance détendue.</p>
+        <button>Découvrir</button>
+    </article>
+    <article class="announcement">
+        <img src="morocco.PNG" alt="Course de la Marche Verte">
+        <h2>Course Symbolique de la Marche Verte</h2>
+        <p><b>Date:</b> 16 novembre 2024</p>
+        <p><b>Lieu:</b> Stade Universitaire</p>
+        <p><b>Description:</b> Recréer l'esprit d'unité et de solidarité de la Marche Verte à travers une course ouverte à tous.</p>
+        <button>Découvrir</button>
+    </article>
+
+    <article class="announcement">
+        <img src="running.PNG" alt="Journée sportive">
+        <h2>Journée sportive</h2>
+        <p><b>Date:</b> 22 novembre 2024</p>
+        <p><b>Lieu:</b> Complexe Sportif</p>
+        <p><b>Description:</b> Une journée sportive universitaire pourrait inclure des compétitions rapides et dynamiques entre étudiants dans différentes disciplines comme le football, le basketball, et le volleyball.</p>
+        <button>Découvrir</button>
+    </article>
+
+    <article class="announcement">
+        <img src="pitch.PNG" alt="Pitch Challenge">
+        <h2>Pitch Challenge</h2>
+        <p><b>Date:</b> 04 novembre 2024 (Mensuel)</p>
+        <p><b>Lieu:</b> Amphithéâtre Principal</p>
+        <p><b>Description:</b> Le Pitch Challenge est une activité où les étudiants présentent un sujet en 5 minutes pour améliorer leurs compétences en public speaking, structuration des idées et gestion du temps. Ils reçoivent ensuite des retours constructifs pour les aider à progresser.</p>
+        <button>Découvrir</button>
+    </article>
+    
+</main>
+
+<section id="social">
+     
+
+    <div class="footer">
+    <a class="b5"    href="https://www.instagram.com/ces_fsbm?igsh=MW45bjJ0Nm01cXJmdA=="><i class="fa-brands fa-instagram">     </i></a>
+    <a  class="b5"     href="https://www.facebook.com/Educationsportive?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+    
+     </div>  
+
+
+</section>
+</body>
+</html>

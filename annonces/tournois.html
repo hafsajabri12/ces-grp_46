@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple CSS Carousel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f9;
+    }
+
+    .carousel {
+      width: 80%;
+      max-width: 600px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .carousel-images {
+      display: flex;
+      width: 400%;
+      animation: slide 150s ease-in-out forwards;
+    }
+
+    .carousel-images img {
+      width: 100%;
+      object-fit: cover;
+      animation-play-state: running;
+    }
+
+    .carousel:hover .carousel-images {
+    animation-play-state: paused;
+    }
+    @keyframes slide {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-100%); }
+        50% { transform: translateX(-200%); }
+        75% { transform: translateX(-300%); }
+        100% { transform: translateX(-300%); } 
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <div class="carousel-images">
+        <img src="pp.PNG" alt="Football" class="activite-img" style="width:80%">    
+        <img src="pp2.PNG" alt="Football" class="activite-img" style="width:80%">
+        <img src="pp3.PNG" alt="Football" class="activite-img" style="width:80%">
+        <img src="pp4.PNG" alt="Football" class="activite-img" style="width:80%">
+    </div>
+  </div>
+</body>
+</html>
+
